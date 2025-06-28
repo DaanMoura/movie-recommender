@@ -1,0 +1,21 @@
+.movie-tag {
+	background-color: #585858;
+	color: #fff;
+	border-radius: 4px;
+	padding: 2px 8px;
+}
+
+.movie-tags {
+	display: flex;
+	gap: 4px;
+	flex-wrap: wrap;
+}
+
+.movie-card {
+	background-color: #353535;
+	border: 1px solid #585858;
+	width: 100%;
+	border-radius: 8px;
+	padding: 8px 16px;
+	box-sizing: border-box;
+}
