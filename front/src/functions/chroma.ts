@@ -1,8 +1,8 @@
 import { ChromaClient } from "chromadb"
 
-export const getChromaCollection = async () => {
+export const getChromaCollection = async (collectionName: string) => {
   const chromaClient = new ChromaClient()
-  const collection = await chromaClient.getOrCreateCollection({ name: 'movies' })
+  const collection = await chromaClient.getOrCreateCollection({ name: collectionName })
 
   return collection
 }
